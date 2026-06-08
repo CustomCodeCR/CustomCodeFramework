@@ -3,6 +3,7 @@
   <ItemGroup>
     <ProjectReference Include="..\CustomCodeFramework.Core\CustomCodeFramework.Core.csproj" />
     <ProjectReference Include="..\CustomCodeFramework.Messaging\CustomCodeFramework.Messaging.csproj" />
+    <ProjectReference Include="..\CustomCodeFramework.Persistence\CustomCodeFramework.Persistence.csproj" />
   </ItemGroup>
 
   <ItemGroup>
@@ -13,7 +14,7 @@
   </ItemGroup>
 
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>

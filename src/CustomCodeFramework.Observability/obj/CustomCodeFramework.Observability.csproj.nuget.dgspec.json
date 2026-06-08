@@ -155,6 +155,10 @@
               "target": "Package",
               "version": "[1.15.1, )"
             },
+            "OpenTelemetry.Instrumentation.Runtime": {
+              "target": "Package",
+              "version": "[1.15.1, )"
+            },
             "Serilog.AspNetCore": {
               "target": "Package",
               "version": "[10.0.0, )"

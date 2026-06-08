@@ -6,6 +6,7 @@
     <ProjectReference Include="..\CustomCodeFramework.Cqrs\CustomCodeFramework.Cqrs.csproj" />
     <ProjectReference Include="..\CustomCodeFramework.Auth\CustomCodeFramework.Auth.csproj" />
     <ProjectReference Include="..\CustomCodeFramework.Observability\CustomCodeFramework.Observability.csproj" />
+    <ProjectReference Include="..\CustomCodeFramework.Persistence\CustomCodeFramework.Persistence.csproj" />
   </ItemGroup>
 
   <ItemGroup>
@@ -14,6 +15,7 @@
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.8" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.0.8" />
     <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="10.0.8" />
+    <PackageReference Include="Microsoft.OpenApi" Version="2.7.5" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="10.2.1" />
   </ItemGroup>
 

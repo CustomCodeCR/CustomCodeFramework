@@ -573,6 +573,22 @@
           }
         }
       },
+      "OpenTelemetry.Instrumentation.Runtime/1.15.1": {
+        "type": "package",
+        "dependencies": {
+          "OpenTelemetry.Api": "[1.15.3, 2.0.0)"
+        },
+        "compile": {
+          "lib/net8.0/OpenTelemetry.Instrumentation.Runtime.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/OpenTelemetry.Instrumentation.Runtime.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Serilog/4.3.0": {
         "type": "package",
         "compile": {
@@ -1741,6 +1757,28 @@
         "opentelemetry.instrumentation.http.nuspec"
       ]
     },
+    "OpenTelemetry.Instrumentation.Runtime/1.15.1": {
+      "sha512": "cpPwlUT5HXcLGPaIgsbSy0W9eFYAPGVbTP1p8/uyQ4Osvf5BJuPpEXE7crL09SmEd44r0DGNKDtsqxaAz0HxQw==",
+      "type": "package",
+      "path": "opentelemetry.instrumentation.runtime/1.15.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "README.md",
+        "lib/net10.0/OpenTelemetry.Instrumentation.Runtime.dll",
+        "lib/net10.0/OpenTelemetry.Instrumentation.Runtime.xml",
+        "lib/net462/OpenTelemetry.Instrumentation.Runtime.dll",
+        "lib/net462/OpenTelemetry.Instrumentation.Runtime.xml",
+        "lib/net8.0/OpenTelemetry.Instrumentation.Runtime.dll",
+        "lib/net8.0/OpenTelemetry.Instrumentation.Runtime.xml",
+        "lib/netstandard2.0/OpenTelemetry.Instrumentation.Runtime.dll",
+        "lib/netstandard2.0/OpenTelemetry.Instrumentation.Runtime.xml",
+        "opentelemetry-icon-color.png",
+        "opentelemetry.instrumentation.runtime.1.15.1.nupkg.sha512",
+        "opentelemetry.instrumentation.runtime.nuspec"
+      ]
+    },
     "Serilog/4.3.0": {
       "sha512": "+cDryFR0GRhsGOnZSKwaDzRRl4MupvJ42FhCE4zhQRVanX0Jpg6WuCBk59OVhVDPmab1bB+nRykAnykYELA9qQ==",
       "type": "package",
@@ -2248,6 +2286,7 @@
       "OpenTelemetry.Extensions.Hosting >= 1.15.3",
       "OpenTelemetry.Instrumentation.AspNetCore >= 1.15.2",
       "OpenTelemetry.Instrumentation.Http >= 1.15.1",
+      "OpenTelemetry.Instrumentation.Runtime >= 1.15.1",
       "Serilog.AspNetCore >= 10.0.0",
       "Serilog.Enrichers.CorrelationId >= 3.0.1",
       "Serilog.Enrichers.Environment >= 3.0.1",
@@ -2325,6 +2364,10 @@
             "version": "[1.15.2, )"
           },
           "OpenTelemetry.Instrumentation.Http": {
+            "target": "Package",
+            "version": "[1.15.1, )"
+          },
+          "OpenTelemetry.Instrumentation.Runtime": {
             "target": "Package",
             "version": "[1.15.1, )"
           },

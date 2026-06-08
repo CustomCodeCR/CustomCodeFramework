@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "wykdHGXrfsY=",
+  "dgSpecHash": "skfkhGDQ7Pk=",
   "success": true,
   "projectFilePath": "/home/maulang/Sistemas/CustomCodeFramework/src/CustomCodeFramework.Validation/CustomCodeFramework.Validation.csproj",
   "expectedPackageFiles": [
     "/home/maulang/.nuget/packages/fluentvalidation/12.1.1/fluentvalidation.12.1.1.nupkg.sha512",
+    "/home/maulang/.nuget/packages/fluentvalidation.dependencyinjectionextensions/12.1.1/fluentvalidation.dependencyinjectionextensions.12.1.1.nupkg.sha512",
     "/home/maulang/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.8/microsoft.extensions.dependencyinjection.abstractions.10.0.8.nupkg.sha512",
     "/home/maulang/.nuget/packages/microsoft.extensions.options/10.0.8/microsoft.extensions.options.10.0.8.nupkg.sha512",
     "/home/maulang/.nuget/packages/microsoft.extensions.primitives/10.0.8/microsoft.extensions.primitives.10.0.8.nupkg.sha512",

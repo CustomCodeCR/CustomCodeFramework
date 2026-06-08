@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "LX3lM0yE3bQ=",
+  "dgSpecHash": "+TJEOSFBFjM=",
   "success": true,
   "projectFilePath": "/home/maulang/Sistemas/CustomCodeFramework/src/CustomCodeFramework.Observability/CustomCodeFramework.Observability.csproj",
   "expectedPackageFiles": [
@@ -35,6 +35,7 @@
     "/home/maulang/.nuget/packages/opentelemetry.extensions.hosting/1.15.3/opentelemetry.extensions.hosting.1.15.3.nupkg.sha512",
     "/home/maulang/.nuget/packages/opentelemetry.instrumentation.aspnetcore/1.15.2/opentelemetry.instrumentation.aspnetcore.1.15.2.nupkg.sha512",
     "/home/maulang/.nuget/packages/opentelemetry.instrumentation.http/1.15.1/opentelemetry.instrumentation.http.1.15.1.nupkg.sha512",
+    "/home/maulang/.nuget/packages/opentelemetry.instrumentation.runtime/1.15.1/opentelemetry.instrumentation.runtime.1.15.1.nupkg.sha512",
     "/home/maulang/.nuget/packages/serilog/4.3.0/serilog.4.3.0.nupkg.sha512",
     "/home/maulang/.nuget/packages/serilog.aspnetcore/10.0.0/serilog.aspnetcore.10.0.0.nupkg.sha512",
     "/home/maulang/.nuget/packages/serilog.enrichers.correlationid/3.0.1/serilog.enrichers.correlationid.3.0.1.nupkg.sha512",

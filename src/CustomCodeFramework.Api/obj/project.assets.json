@@ -2,6 +2,19 @@
   "version": 4,
   "targets": {
     "net10.0": {
+      "Ardalis.Specification/9.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/Ardalis.Specification.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Ardalis.Specification.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "FluentValidation/12.1.1": {
         "type": "package",
         "compile": {
@@ -11,6 +24,45 @@
         },
         "runtime": {
           "lib/net8.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "FluentValidation.DependencyInjectionExtensions/12.1.1": {
+        "type": "package",
+        "dependencies": {
+          "FluentValidation": "12.1.1",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.1.0"
+        },
+        "compile": {
+          "lib/net8.0/FluentValidation.DependencyInjectionExtensions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/FluentValidation.DependencyInjectionExtensions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Authentication/2.3.10": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Authentication.Core": "2.3.9",
+          "Microsoft.AspNetCore.DataProtection": "2.3.9",
+          "Microsoft.AspNetCore.Http": "2.3.9",
+          "Microsoft.AspNetCore.Http.Extensions": "2.3.9",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Options": "8.0.2",
+          "Microsoft.Extensions.WebEncoders": "8.0.11"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.dll": {
             "related": ".xml"
           }
         }
@@ -102,6 +154,54 @@
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.Policy.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Cryptography.Internal/2.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.Internal.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.Internal.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.DataProtection/2.3.9": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Cryptography.Internal": "2.3.0",
+          "Microsoft.AspNetCore.DataProtection.Abstractions": "2.3.0",
+          "Microsoft.AspNetCore.Hosting.Abstractions": "2.3.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Options": "8.0.2",
+          "System.Security.Cryptography.Xml": "8.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.DataProtection.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.DataProtection.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.DataProtection.Abstractions/2.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.DataProtection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.DataProtection.Abstractions.dll": {
             "related": ".xml"
           }
         }
@@ -748,6 +848,23 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
+      "Microsoft.Extensions.WebEncoders/8.0.11": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Options": "8.0.2"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.WebEncoders.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.WebEncoders.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.IdentityModel.Abstractions/8.19.1": {
         "type": "package",
         "compile": {
@@ -987,6 +1104,22 @@
         },
         "runtime": {
           "lib/net10.0/OpenTelemetry.Instrumentation.Http.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "OpenTelemetry.Instrumentation.Runtime/1.15.1": {
+        "type": "package",
+        "dependencies": {
+          "OpenTelemetry.Api": "[1.15.3, 2.0.0)"
+        },
+        "compile": {
+          "lib/net10.0/OpenTelemetry.Instrumentation.Runtime.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/OpenTelemetry.Instrumentation.Runtime.dll": {
             "related": ".xml"
           }
         }
@@ -1291,11 +1424,53 @@
           }
         }
       },
+      "System.Security.Cryptography.Pkcs/8.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Security.Cryptography.Pkcs.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Security.Cryptography.Pkcs.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net8.0/System.Security.Cryptography.Pkcs.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Security.Cryptography.Xml/8.0.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.Cryptography.Pkcs": "8.0.1"
+        },
+        "compile": {
+          "lib/net8.0/System.Security.Cryptography.Xml.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Security.Cryptography.Xml.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
       "CustomCodeFramework.Auth/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
           "CustomCodeFramework.Core": "1.0.0",
+          "Microsoft.AspNetCore.Authentication": "2.3.10",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "10.0.8",
           "Microsoft.AspNetCore.Authorization": "10.0.8",
           "Microsoft.AspNetCore.Http.Abstractions": "2.3.10",
@@ -1352,6 +1527,7 @@
           "OpenTelemetry.Extensions.Hosting": "1.15.3",
           "OpenTelemetry.Instrumentation.AspNetCore": "1.15.2",
           "OpenTelemetry.Instrumentation.Http": "1.15.1",
+          "OpenTelemetry.Instrumentation.Runtime": "1.15.1",
           "Serilog.AspNetCore": "10.0.0",
           "Serilog.Enrichers.CorrelationId": "3.0.1",
           "Serilog.Enrichers.Environment": "3.0.1",
@@ -1365,12 +1541,27 @@
           "bin/placeholder/CustomCodeFramework.Observability.dll": {}
         }
       },
+      "CustomCodeFramework.Persistence/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "Ardalis.Specification": "9.3.1",
+          "CustomCodeFramework.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CustomCodeFramework.Persistence.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CustomCodeFramework.Persistence.dll": {}
+        }
+      },
       "CustomCodeFramework.Validation/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "CustomCodeFramework.Core": "1.0.0",
           "FluentValidation": "12.1.1",
+          "FluentValidation.DependencyInjectionExtensions": "12.1.1",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.8"
         },
         "compile": {
@@ -1383,6 +1574,26 @@
     }
   },
   "libraries": {
+    "Ardalis.Specification/9.3.1": {
+      "sha512": "GWrE6BA0smWFLbN+XPU2l5rDF9Uzelfbb3w35jJ0CGIat+p1ChbtLcbkvYRMEculBHOAo12omwAAOm3VFWkoJQ==",
+      "type": "package",
+      "path": "ardalis.specification/9.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "ardalis.specification.9.3.1.nupkg.sha512",
+        "ardalis.specification.nuspec",
+        "icon.png",
+        "lib/net8.0/Ardalis.Specification.dll",
+        "lib/net8.0/Ardalis.Specification.xml",
+        "lib/net9.0/Ardalis.Specification.dll",
+        "lib/net9.0/Ardalis.Specification.xml",
+        "lib/netstandard2.0/Ardalis.Specification.dll",
+        "lib/netstandard2.0/Ardalis.Specification.xml",
+        "readme-nuget.md"
+      ]
+    },
     "FluentValidation/12.1.1": {
       "sha512": "EPpkIe1yh1a0OXyC100oOA8WMbZvqUu5plwhvYcb7oSELfyUZzfxV48BLhvs3kKo4NwG7MGLNgy1RJiYtT8Dpw==",
       "type": "package",
@@ -1396,6 +1607,34 @@
         "fluentvalidation.nuspec",
         "lib/net8.0/FluentValidation.dll",
         "lib/net8.0/FluentValidation.xml"
+      ]
+    },
+    "FluentValidation.DependencyInjectionExtensions/12.1.1": {
+      "sha512": "D0VXh4dtjjX2aQizuaa0g6R8X3U1JaVqJPfGCvLwZX9t/O2h7tkpbitbadQMfwcgSPdDbI2vDxuwRMv/Uf9dHA==",
+      "type": "package",
+      "path": "fluentvalidation.dependencyinjectionextensions/12.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.dependencyinjectionextensions.12.1.1.nupkg.sha512",
+        "fluentvalidation.dependencyinjectionextensions.nuspec",
+        "lib/net8.0/FluentValidation.DependencyInjectionExtensions.dll",
+        "lib/net8.0/FluentValidation.DependencyInjectionExtensions.xml"
+      ]
+    },
+    "Microsoft.AspNetCore.Authentication/2.3.10": {
+      "sha512": "sZZ4NKXcIT8g7EMk2JVL2DWPdIuGMqiQtW0eblhhWv6ctyt5LsG2hqgS1w1o5OokWHcgkcIwCbBJ95BPKbfyKg==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.authentication/2.3.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.xml",
+        "microsoft.aspnetcore.authentication.2.3.10.nupkg.sha512",
+        "microsoft.aspnetcore.authentication.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Authentication.Abstractions/2.3.0": {
@@ -1470,6 +1709,45 @@
         "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.Policy.xml",
         "microsoft.aspnetcore.authorization.policy.2.3.9.nupkg.sha512",
         "microsoft.aspnetcore.authorization.policy.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Cryptography.Internal/2.3.0": {
+      "sha512": "/qy5r0CD40OccajzDmX3gBfqqxpAJkcXoqlVz0YR70x3gTRq/VuseDU/lZ5eh8vM+KCdmPFAtyGcRWxTyXxuYg==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.cryptography.internal/2.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.Internal.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.Internal.xml",
+        "microsoft.aspnetcore.cryptography.internal.2.3.0.nupkg.sha512",
+        "microsoft.aspnetcore.cryptography.internal.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.DataProtection/2.3.9": {
+      "sha512": "38A+sWmUo/0UF5bGjkTN+/Y0AVyDxKYCkNanuQkcJoKhGG+GMzdiBClYa04GePvHLWSOBXbvVcpvULIEDnc1uA==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.dataprotection/2.3.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.AspNetCore.DataProtection.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.DataProtection.xml",
+        "microsoft.aspnetcore.dataprotection.2.3.9.nupkg.sha512",
+        "microsoft.aspnetcore.dataprotection.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.DataProtection.Abstractions/2.3.0": {
+      "sha512": "71GdtUkVDagLsBt+YatfzUItnbT2vIjHxWySNE2MkgIDhqT3g4sNNxOj/0PlPTpc1+mG3ZwfUoZ61jIt1wPw7g==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.dataprotection.abstractions/2.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.AspNetCore.DataProtection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.DataProtection.Abstractions.xml",
+        "microsoft.aspnetcore.dataprotection.abstractions.2.3.0.nupkg.sha512",
+        "microsoft.aspnetcore.dataprotection.abstractions.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Hosting.Abstractions/2.3.9": {
@@ -2553,6 +2831,25 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Microsoft.Extensions.WebEncoders/8.0.11": {
+      "sha512": "EwF+KaQzTa/MoIm8gciABL6xeeiGKowqyam+lPYWukTppwch1P3QeL8CpgtLs8kIWuEowpAAUrVfP1kyZsZgqg==",
+      "type": "package",
+      "path": "microsoft.extensions.webencoders/8.0.11",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net462/Microsoft.Extensions.WebEncoders.dll",
+        "lib/net462/Microsoft.Extensions.WebEncoders.xml",
+        "lib/net8.0/Microsoft.Extensions.WebEncoders.dll",
+        "lib/net8.0/Microsoft.Extensions.WebEncoders.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.WebEncoders.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.WebEncoders.xml",
+        "microsoft.extensions.webencoders.8.0.11.nupkg.sha512",
+        "microsoft.extensions.webencoders.nuspec"
+      ]
+    },
     "Microsoft.IdentityModel.Abstractions/8.19.1": {
       "sha512": "gFA8THIk23uNF/vMdOHnjIdXD1LyA2g12cHzMJ+Xag6WpgWLw6E/6uCXxvA0gp9d2yAvkRt3xzFzMUiO/hofnQ==",
       "type": "package",
@@ -2930,6 +3227,28 @@
         "opentelemetry-icon-color.png",
         "opentelemetry.instrumentation.http.1.15.1.nupkg.sha512",
         "opentelemetry.instrumentation.http.nuspec"
+      ]
+    },
+    "OpenTelemetry.Instrumentation.Runtime/1.15.1": {
+      "sha512": "cpPwlUT5HXcLGPaIgsbSy0W9eFYAPGVbTP1p8/uyQ4Osvf5BJuPpEXE7crL09SmEd44r0DGNKDtsqxaAz0HxQw==",
+      "type": "package",
+      "path": "opentelemetry.instrumentation.runtime/1.15.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "README.md",
+        "lib/net10.0/OpenTelemetry.Instrumentation.Runtime.dll",
+        "lib/net10.0/OpenTelemetry.Instrumentation.Runtime.xml",
+        "lib/net462/OpenTelemetry.Instrumentation.Runtime.dll",
+        "lib/net462/OpenTelemetry.Instrumentation.Runtime.xml",
+        "lib/net8.0/OpenTelemetry.Instrumentation.Runtime.dll",
+        "lib/net8.0/OpenTelemetry.Instrumentation.Runtime.xml",
+        "lib/netstandard2.0/OpenTelemetry.Instrumentation.Runtime.dll",
+        "lib/netstandard2.0/OpenTelemetry.Instrumentation.Runtime.xml",
+        "opentelemetry-icon-color.png",
+        "opentelemetry.instrumentation.runtime.1.15.1.nupkg.sha512",
+        "opentelemetry.instrumentation.runtime.nuspec"
       ]
     },
     "Serilog/4.3.0": {
@@ -3332,6 +3651,72 @@
         "system.identitymodel.tokens.jwt.nuspec"
       ]
     },
+    "System.Security.Cryptography.Pkcs/8.0.1": {
+      "sha512": "CoCRHFym33aUSf/NtWSVSZa99dkd0Hm7OCZUxORBjRB16LNhIEOf8THPqzIYlvKM0nNDAPTRBa1FxEECrgaxxA==",
+      "type": "package",
+      "path": "system.security.cryptography.pkcs/8.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Security.Cryptography.Pkcs.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Security.Cryptography.Pkcs.targets",
+        "lib/net462/System.Security.Cryptography.Pkcs.dll",
+        "lib/net462/System.Security.Cryptography.Pkcs.xml",
+        "lib/net6.0/System.Security.Cryptography.Pkcs.dll",
+        "lib/net6.0/System.Security.Cryptography.Pkcs.xml",
+        "lib/net7.0/System.Security.Cryptography.Pkcs.dll",
+        "lib/net7.0/System.Security.Cryptography.Pkcs.xml",
+        "lib/net8.0/System.Security.Cryptography.Pkcs.dll",
+        "lib/net8.0/System.Security.Cryptography.Pkcs.xml",
+        "lib/netstandard2.0/System.Security.Cryptography.Pkcs.dll",
+        "lib/netstandard2.0/System.Security.Cryptography.Pkcs.xml",
+        "lib/netstandard2.1/System.Security.Cryptography.Pkcs.dll",
+        "lib/netstandard2.1/System.Security.Cryptography.Pkcs.xml",
+        "runtimes/win/lib/net6.0/System.Security.Cryptography.Pkcs.dll",
+        "runtimes/win/lib/net6.0/System.Security.Cryptography.Pkcs.xml",
+        "runtimes/win/lib/net7.0/System.Security.Cryptography.Pkcs.dll",
+        "runtimes/win/lib/net7.0/System.Security.Cryptography.Pkcs.xml",
+        "runtimes/win/lib/net8.0/System.Security.Cryptography.Pkcs.dll",
+        "runtimes/win/lib/net8.0/System.Security.Cryptography.Pkcs.xml",
+        "system.security.cryptography.pkcs.8.0.1.nupkg.sha512",
+        "system.security.cryptography.pkcs.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Security.Cryptography.Xml/8.0.2": {
+      "sha512": "aDM/wm0ZGEZ6ZYJLzgqjp2FZdHbDHh6/OmpGfb7AdZ105zYmPn/83JRU2xLIbwgoNz9U1SLUTJN0v5th3qmvjA==",
+      "type": "package",
+      "path": "system.security.cryptography.xml/8.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Security.Cryptography.Xml.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Security.Cryptography.Xml.targets",
+        "lib/net462/System.Security.Cryptography.Xml.dll",
+        "lib/net462/System.Security.Cryptography.Xml.xml",
+        "lib/net6.0/System.Security.Cryptography.Xml.dll",
+        "lib/net6.0/System.Security.Cryptography.Xml.xml",
+        "lib/net7.0/System.Security.Cryptography.Xml.dll",
+        "lib/net7.0/System.Security.Cryptography.Xml.xml",
+        "lib/net8.0/System.Security.Cryptography.Xml.dll",
+        "lib/net8.0/System.Security.Cryptography.Xml.xml",
+        "lib/netstandard2.0/System.Security.Cryptography.Xml.dll",
+        "lib/netstandard2.0/System.Security.Cryptography.Xml.xml",
+        "system.security.cryptography.xml.8.0.2.nupkg.sha512",
+        "system.security.cryptography.xml.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
     "CustomCodeFramework.Auth/1.0.0": {
       "type": "project",
       "path": "../CustomCodeFramework.Auth/CustomCodeFramework.Auth.csproj",
@@ -3352,6 +3737,11 @@
       "path": "../CustomCodeFramework.Observability/CustomCodeFramework.Observability.csproj",
       "msbuildProject": "../CustomCodeFramework.Observability/CustomCodeFramework.Observability.csproj"
     },
+    "CustomCodeFramework.Persistence/1.0.0": {
+      "type": "project",
+      "path": "../CustomCodeFramework.Persistence/CustomCodeFramework.Persistence.csproj",
+      "msbuildProject": "../CustomCodeFramework.Persistence/CustomCodeFramework.Persistence.csproj"
+    },
     "CustomCodeFramework.Validation/1.0.0": {
       "type": "project",
       "path": "../CustomCodeFramework.Validation/CustomCodeFramework.Validation.csproj",
@@ -3364,12 +3754,14 @@
       "CustomCodeFramework.Core >= 1.0.0",
       "CustomCodeFramework.Cqrs >= 1.0.0",
       "CustomCodeFramework.Observability >= 1.0.0",
+      "CustomCodeFramework.Persistence >= 1.0.0",
       "CustomCodeFramework.Validation >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 10.0.8",
       "Microsoft.AspNetCore.Mvc.Core >= 2.3.10",
       "Microsoft.AspNetCore.OpenApi >= 10.0.8",
       "Microsoft.Extensions.DependencyInjection.Abstractions >= 10.0.8",
       "Microsoft.Extensions.Options.ConfigurationExtensions >= 10.0.8",
+      "Microsoft.OpenApi >= 2.7.5",
       "Swashbuckle.AspNetCore >= 10.2.1"
     ]
   },
@@ -3410,6 +3802,9 @@
             },
             "/home/maulang/Sistemas/CustomCodeFramework/src/CustomCodeFramework.Observability/CustomCodeFramework.Observability.csproj": {
               "projectPath": "/home/maulang/Sistemas/CustomCodeFramework/src/CustomCodeFramework.Observability/CustomCodeFramework.Observability.csproj"
+            },
+            "/home/maulang/Sistemas/CustomCodeFramework/src/CustomCodeFramework.Persistence/CustomCodeFramework.Persistence.csproj": {
+              "projectPath": "/home/maulang/Sistemas/CustomCodeFramework/src/CustomCodeFramework.Persistence/CustomCodeFramework.Persistence.csproj"
             },
             "/home/maulang/Sistemas/CustomCodeFramework/src/CustomCodeFramework.Validation/CustomCodeFramework.Validation.csproj": {
               "projectPath": "/home/maulang/Sistemas/CustomCodeFramework/src/CustomCodeFramework.Validation/CustomCodeFramework.Validation.csproj"
@@ -3453,6 +3848,10 @@
           "Microsoft.Extensions.Options.ConfigurationExtensions": {
             "target": "Package",
             "version": "[10.0.8, )"
+          },
+          "Microsoft.OpenApi": {
+            "target": "Package",
+            "version": "[2.7.5, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
@@ -3752,5 +4151,27 @@
         }
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Security.Cryptography.Xml' 8.0.2 has a known high severity vulnerability, https://github.com/advisories/GHSA-37gx-xxp4-5rgx",
+      "libraryId": "System.Security.Cryptography.Xml",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Security.Cryptography.Xml' 8.0.2 has a known high severity vulnerability, https://github.com/advisories/GHSA-w3x6-4m5h-cxqf",
+      "libraryId": "System.Security.Cryptography.Xml",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
 }
