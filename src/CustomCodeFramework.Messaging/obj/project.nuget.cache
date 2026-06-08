@@ -1,8 +1,23 @@
 {
   "version": 2,
-  "dgSpecHash": "f/EiUAULgQM=",
+  "dgSpecHash": "uNZCRQMBAMs=",
   "success": true,
-  "projectFilePath": "/home/maurice/Trabajo/customer/CustomCodeCR/CustomCodeFramework/src/CustomCodeFramework.Messaging/CustomCodeFramework.Messaging.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/maulang/Sistemas/CustomCodeFramework/src/CustomCodeFramework.Messaging/CustomCodeFramework.Messaging.csproj",
+  "expectedPackageFiles": [
+    "/home/maulang/.nuget/packages/microsoft.extensions.configuration/10.0.8/microsoft.extensions.configuration.10.0.8.nupkg.sha512",
+    "/home/maulang/.nuget/packages/microsoft.extensions.configuration.abstractions/10.0.8/microsoft.extensions.configuration.abstractions.10.0.8.nupkg.sha512",
+    "/home/maulang/.nuget/packages/microsoft.extensions.configuration.binder/10.0.8/microsoft.extensions.configuration.binder.10.0.8.nupkg.sha512",
+    "/home/maulang/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.8/microsoft.extensions.dependencyinjection.abstractions.10.0.8.nupkg.sha512",
+    "/home/maulang/.nuget/packages/microsoft.extensions.diagnostics.abstractions/10.0.8/microsoft.extensions.diagnostics.abstractions.10.0.8.nupkg.sha512",
+    "/home/maulang/.nuget/packages/microsoft.extensions.fileproviders.abstractions/10.0.8/microsoft.extensions.fileproviders.abstractions.10.0.8.nupkg.sha512",
+    "/home/maulang/.nuget/packages/microsoft.extensions.hosting.abstractions/10.0.8/microsoft.extensions.hosting.abstractions.10.0.8.nupkg.sha512",
+    "/home/maulang/.nuget/packages/microsoft.extensions.logging.abstractions/10.0.8/microsoft.extensions.logging.abstractions.10.0.8.nupkg.sha512",
+    "/home/maulang/.nuget/packages/microsoft.extensions.options/10.0.8/microsoft.extensions.options.10.0.8.nupkg.sha512",
+    "/home/maulang/.nuget/packages/microsoft.extensions.options.configurationextensions/10.0.8/microsoft.extensions.options.configurationextensions.10.0.8.nupkg.sha512",
+    "/home/maulang/.nuget/packages/microsoft.extensions.primitives/10.0.8/microsoft.extensions.primitives.10.0.8.nupkg.sha512",
+    "/home/maulang/.nuget/packages/system.diagnostics.diagnosticsource/10.0.8/system.diagnostics.diagnosticsource.10.0.8.nupkg.sha512",
+    "/home/maulang/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.27/microsoft.aspnetcore.app.ref.8.0.27.nupkg.sha512",
+    "/home/maulang/.nuget/packages/microsoft.netcore.app.ref/8.0.27/microsoft.netcore.app.ref.8.0.27.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,8 +1,28 @@
 {
   "version": 2,
-  "dgSpecHash": "cn0EQkDft7c=",
+  "dgSpecHash": "yujHVHWGkT0=",
   "success": true,
   "projectFilePath": "/home/maulang/Sistemas/CustomCodeFramework/src/CustomCodeFramework.Storage/CustomCodeFramework.Storage.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/maulang/.nuget/packages/microsoft.aspnetcore.hosting.abstractions/2.3.9/microsoft.aspnetcore.hosting.abstractions.2.3.9.nupkg.sha512",
+    "/home/maulang/.nuget/packages/microsoft.aspnetcore.hosting.server.abstractions/2.3.0/microsoft.aspnetcore.hosting.server.abstractions.2.3.0.nupkg.sha512",
+    "/home/maulang/.nuget/packages/microsoft.aspnetcore.http.abstractions/2.3.0/microsoft.aspnetcore.http.abstractions.2.3.0.nupkg.sha512",
+    "/home/maulang/.nuget/packages/microsoft.aspnetcore.http.extensions/2.3.9/microsoft.aspnetcore.http.extensions.2.3.9.nupkg.sha512",
+    "/home/maulang/.nuget/packages/microsoft.aspnetcore.http.features/2.3.0/microsoft.aspnetcore.http.features.2.3.0.nupkg.sha512",
+    "/home/maulang/.nuget/packages/microsoft.aspnetcore.staticfiles/2.3.10/microsoft.aspnetcore.staticfiles.2.3.10.nupkg.sha512",
+    "/home/maulang/.nuget/packages/microsoft.extensions.configuration/10.0.8/microsoft.extensions.configuration.10.0.8.nupkg.sha512",
+    "/home/maulang/.nuget/packages/microsoft.extensions.configuration.abstractions/10.0.8/microsoft.extensions.configuration.abstractions.10.0.8.nupkg.sha512",
+    "/home/maulang/.nuget/packages/microsoft.extensions.configuration.binder/10.0.8/microsoft.extensions.configuration.binder.10.0.8.nupkg.sha512",
+    "/home/maulang/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.8/microsoft.extensions.dependencyinjection.abstractions.10.0.8.nupkg.sha512",
+    "/home/maulang/.nuget/packages/microsoft.extensions.diagnostics.abstractions/8.0.1/microsoft.extensions.diagnostics.abstractions.8.0.1.nupkg.sha512",
+    "/home/maulang/.nuget/packages/microsoft.extensions.fileproviders.abstractions/8.0.0/microsoft.extensions.fileproviders.abstractions.8.0.0.nupkg.sha512",
+    "/home/maulang/.nuget/packages/microsoft.extensions.hosting.abstractions/8.0.1/microsoft.extensions.hosting.abstractions.8.0.1.nupkg.sha512",
+    "/home/maulang/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.2/microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
+    "/home/maulang/.nuget/packages/microsoft.extensions.options/10.0.8/microsoft.extensions.options.10.0.8.nupkg.sha512",
+    "/home/maulang/.nuget/packages/microsoft.extensions.options.configurationextensions/10.0.8/microsoft.extensions.options.configurationextensions.10.0.8.nupkg.sha512",
+    "/home/maulang/.nuget/packages/microsoft.extensions.primitives/10.0.8/microsoft.extensions.primitives.10.0.8.nupkg.sha512",
+    "/home/maulang/.nuget/packages/microsoft.extensions.webencoders/8.0.11/microsoft.extensions.webencoders.8.0.11.nupkg.sha512",
+    "/home/maulang/.nuget/packages/microsoft.net.http.headers/2.3.8/microsoft.net.http.headers.2.3.8.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/maurice/Trabajo/customer/CustomCodeCR/CustomCodeFramework/src/CustomCodeFramework.Redis/CustomCodeFramework.Redis.csproj": {}
+    "/home/maulang/Sistemas/CustomCodeFramework/src/CustomCodeFramework.Redis/CustomCodeFramework.Redis.csproj": {}
   },
   "projects": {
-    "/home/maurice/Trabajo/customer/CustomCodeCR/CustomCodeFramework/src/CustomCodeFramework.Redis/CustomCodeFramework.Redis.csproj": {
+    "/home/maulang/Sistemas/CustomCodeFramework/src/CustomCodeFramework.Core/CustomCodeFramework.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/maurice/Trabajo/customer/CustomCodeCR/CustomCodeFramework/src/CustomCodeFramework.Redis/CustomCodeFramework.Redis.csproj",
-        "projectName": "CustomCodeFramework.Redis",
-        "projectPath": "/home/maurice/Trabajo/customer/CustomCodeCR/CustomCodeFramework/src/CustomCodeFramework.Redis/CustomCodeFramework.Redis.csproj",
-        "packagesPath": "/home/maurice/.nuget/packages/",
-        "outputPath": "/home/maurice/Trabajo/customer/CustomCodeCR/CustomCodeFramework/src/CustomCodeFramework.Redis/obj/",
+        "projectUniqueName": "/home/maulang/Sistemas/CustomCodeFramework/src/CustomCodeFramework.Core/CustomCodeFramework.Core.csproj",
+        "projectName": "CustomCodeFramework.Core",
+        "projectPath": "/home/maulang/Sistemas/CustomCodeFramework/src/CustomCodeFramework.Core/CustomCodeFramework.Core.csproj",
+        "packagesPath": "/home/maulang/.nuget/packages/",
+        "outputPath": "/home/maulang/Sistemas/CustomCodeFramework/src/CustomCodeFramework.Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/maurice/.nuget/NuGet/NuGet.Config"
+          "/home/maulang/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -24,6 +24,7 @@
         },
         "frameworks": {
           "net8.0": {
+            "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {}
           }
@@ -37,11 +38,23 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[10.0.8, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[10.0.8, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -53,12 +66,119 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.27, 8.0.27]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.27, 8.0.27]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/maurice/.local/share/mise/installs/dotnet/8.0.421/sdk/8.0.421/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/maulang/.local/share/mise/dotnet-root/sdk/10.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/maulang/Sistemas/CustomCodeFramework/src/CustomCodeFramework.Redis/CustomCodeFramework.Redis.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/maulang/Sistemas/CustomCodeFramework/src/CustomCodeFramework.Redis/CustomCodeFramework.Redis.csproj",
+        "projectName": "CustomCodeFramework.Redis",
+        "projectPath": "/home/maulang/Sistemas/CustomCodeFramework/src/CustomCodeFramework.Redis/CustomCodeFramework.Redis.csproj",
+        "packagesPath": "/home/maulang/.nuget/packages/",
+        "outputPath": "/home/maulang/Sistemas/CustomCodeFramework/src/CustomCodeFramework.Redis/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/maulang/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "framework": "net8.0",
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/maulang/Sistemas/CustomCodeFramework/src/CustomCodeFramework.Core/CustomCodeFramework.Core.csproj": {
+                "projectPath": "/home/maulang/Sistemas/CustomCodeFramework/src/CustomCodeFramework.Core/CustomCodeFramework.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "framework": "net8.0",
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[10.0.8, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[10.0.8, )"
+            },
+            "Microsoft.Extensions.Diagnostics.HealthChecks": {
+              "target": "Package",
+              "version": "[10.0.8, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[10.0.8, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.13.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.27, 8.0.27]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.27, 8.0.27]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/maulang/.local/share/mise/dotnet-root/sdk/10.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

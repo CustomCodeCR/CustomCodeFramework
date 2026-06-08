@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "targets": {
     "net8.0": {
       "coverlet.collector/6.0.0": {
@@ -5508,19 +5508,19 @@
     ]
   },
   "packageFolders": {
-    "/home/maurice/.nuget/packages/": {}
+    "/home/maulang/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/maurice/Trabajo/customer/CustomCodeCR/CustomCodeFramework/tests/CustomCodeFramework.Core.Tests/CustomCodeFramework.Core.Tests.csproj",
+      "projectUniqueName": "/home/maulang/Sistemas/CustomCodeFramework/tests/CustomCodeFramework.Core.Tests/CustomCodeFramework.Core.Tests.csproj",
       "projectName": "CustomCodeFramework.Core.Tests",
-      "projectPath": "/home/maurice/Trabajo/customer/CustomCodeCR/CustomCodeFramework/tests/CustomCodeFramework.Core.Tests/CustomCodeFramework.Core.Tests.csproj",
-      "packagesPath": "/home/maurice/.nuget/packages/",
-      "outputPath": "/home/maurice/Trabajo/customer/CustomCodeCR/CustomCodeFramework/tests/CustomCodeFramework.Core.Tests/obj/",
+      "projectPath": "/home/maulang/Sistemas/CustomCodeFramework/tests/CustomCodeFramework.Core.Tests/CustomCodeFramework.Core.Tests.csproj",
+      "packagesPath": "/home/maulang/.nuget/packages/",
+      "outputPath": "/home/maulang/Sistemas/CustomCodeFramework/tests/CustomCodeFramework.Core.Tests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/maurice/.nuget/NuGet/NuGet.Config"
+        "/home/maulang/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -5530,6 +5530,7 @@
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "projectReferences": {}
         }
@@ -5543,10 +5544,12 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "10.0.300"
     },
     "frameworks": {
       "net8.0": {
+        "framework": "net8.0",
         "targetAlias": "net8.0",
         "dependencies": {
           "Microsoft.NET.Test.Sdk": {
@@ -5577,12 +5580,22 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.27, 8.0.27]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.27, 8.0.27]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/home/maurice/.local/share/mise/installs/dotnet/8.0.421/sdk/8.0.421/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/home/maulang/.local/share/mise/dotnet-root/sdk/10.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
