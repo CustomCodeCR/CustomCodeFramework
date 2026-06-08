@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CustomCodeFramework.Messaging")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+35e671fc6b71e6414fb27594b54a6fd6a8dd0de2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b67ec307643eb142a334b1b5ddb57f40a312c63")]
 [assembly: System.Reflection.AssemblyProductAttribute("CustomCodeFramework.Messaging")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CustomCodeFramework.Messaging")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
