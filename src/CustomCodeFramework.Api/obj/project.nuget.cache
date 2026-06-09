@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "BScS+u81a3c=",
+  "dgSpecHash": "7RPXkLzqzNs=",
   "success": true,
   "projectFilePath": "/home/maulang/Sistemas/CustomCodeFramework/src/CustomCodeFramework.Api/CustomCodeFramework.Api.csproj",
   "expectedPackageFiles": [
@@ -87,7 +87,8 @@
     "/home/maulang/.nuget/packages/swashbuckle.aspnetcore.swaggerui/10.2.1/swashbuckle.aspnetcore.swaggerui.10.2.1.nupkg.sha512",
     "/home/maulang/.nuget/packages/system.identitymodel.tokens.jwt/8.19.1/system.identitymodel.tokens.jwt.8.19.1.nupkg.sha512",
     "/home/maulang/.nuget/packages/system.security.cryptography.pkcs/8.0.1/system.security.cryptography.pkcs.8.0.1.nupkg.sha512",
-    "/home/maulang/.nuget/packages/system.security.cryptography.xml/8.0.2/system.security.cryptography.xml.8.0.2.nupkg.sha512"
+    "/home/maulang/.nuget/packages/system.security.cryptography.xml/8.0.2/system.security.cryptography.xml.8.0.2.nupkg.sha512",
+    "/home/maulang/.nuget/packages/customcodeframework.core/0.1.0-alpha.1/customcodeframework.core.0.1.0-alpha.1.nupkg.sha512"
   ],
   "logs": [
     {

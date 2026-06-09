@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Hsof2p1NLQo=",
+  "dgSpecHash": "8iOIENtHwLw=",
   "success": true,
   "projectFilePath": "/home/maulang/Sistemas/CustomCodeFramework/src/CustomCodeFramework.Storage/CustomCodeFramework.Storage.csproj",
   "expectedPackageFiles": [
@@ -22,7 +22,8 @@
     "/home/maulang/.nuget/packages/microsoft.extensions.options.configurationextensions/10.0.8/microsoft.extensions.options.configurationextensions.10.0.8.nupkg.sha512",
     "/home/maulang/.nuget/packages/microsoft.extensions.primitives/10.0.8/microsoft.extensions.primitives.10.0.8.nupkg.sha512",
     "/home/maulang/.nuget/packages/microsoft.extensions.webencoders/8.0.11/microsoft.extensions.webencoders.8.0.11.nupkg.sha512",
-    "/home/maulang/.nuget/packages/microsoft.net.http.headers/2.3.8/microsoft.net.http.headers.2.3.8.nupkg.sha512"
+    "/home/maulang/.nuget/packages/microsoft.net.http.headers/2.3.8/microsoft.net.http.headers.2.3.8.nupkg.sha512",
+    "/home/maulang/.nuget/packages/customcodeframework.core/0.1.0-alpha.1/customcodeframework.core.0.1.0-alpha.1.nupkg.sha512"
   ],
   "logs": []
 }

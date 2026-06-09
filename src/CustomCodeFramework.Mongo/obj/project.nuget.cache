@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "lLgxzLCeDxk=",
+  "dgSpecHash": "+P3D/u6AHPQ=",
   "success": true,
   "projectFilePath": "/home/maulang/Sistemas/CustomCodeFramework/src/CustomCodeFramework.Mongo/CustomCodeFramework.Mongo.csproj",
   "expectedPackageFiles": [
@@ -23,7 +23,8 @@
     "/home/maulang/.nuget/packages/mongodb.driver/3.9.0/mongodb.driver.3.9.0.nupkg.sha512",
     "/home/maulang/.nuget/packages/sharpcompress/0.48.1/sharpcompress.0.48.1.nupkg.sha512",
     "/home/maulang/.nuget/packages/snappier/1.3.1/snappier.1.3.1.nupkg.sha512",
-    "/home/maulang/.nuget/packages/zstdsharp.port/0.7.3/zstdsharp.port.0.7.3.nupkg.sha512"
+    "/home/maulang/.nuget/packages/zstdsharp.port/0.7.3/zstdsharp.port.0.7.3.nupkg.sha512",
+    "/home/maulang/.nuget/packages/customcodeframework.core/0.1.0-alpha.1/customcodeframework.core.0.1.0-alpha.1.nupkg.sha512"
   ],
   "logs": []
 }

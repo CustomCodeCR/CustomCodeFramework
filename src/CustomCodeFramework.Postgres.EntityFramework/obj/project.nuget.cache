@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "E4nyIWreYv4=",
+  "dgSpecHash": "kwWP0CR0Jpc=",
   "success": true,
   "projectFilePath": "/home/maulang/Sistemas/CustomCodeFramework/src/CustomCodeFramework.Postgres.EntityFramework/CustomCodeFramework.Postgres.EntityFramework.csproj",
   "expectedPackageFiles": [
@@ -48,7 +48,8 @@
     "/home/maulang/.nuget/packages/system.composition.convention/9.0.0/system.composition.convention.9.0.0.nupkg.sha512",
     "/home/maulang/.nuget/packages/system.composition.hosting/9.0.0/system.composition.hosting.9.0.0.nupkg.sha512",
     "/home/maulang/.nuget/packages/system.composition.runtime/9.0.0/system.composition.runtime.9.0.0.nupkg.sha512",
-    "/home/maulang/.nuget/packages/system.composition.typedparts/9.0.0/system.composition.typedparts.9.0.0.nupkg.sha512"
+    "/home/maulang/.nuget/packages/system.composition.typedparts/9.0.0/system.composition.typedparts.9.0.0.nupkg.sha512",
+    "/home/maulang/.nuget/packages/customcodeframework.core/0.1.0-alpha.1/customcodeframework.core.0.1.0-alpha.1.nupkg.sha512"
   ],
   "logs": []
 }

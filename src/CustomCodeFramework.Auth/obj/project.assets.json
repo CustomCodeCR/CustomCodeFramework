@@ -1755,7 +1755,9 @@
         "net10.0"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {}
+        "/home/maulang/Sistemas/CustomCodeFramework/artifacts/packages": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.pkg.github.com/CustomCodeCR/index.json": {}
       },
       "frameworks": {
         "net10.0": {
