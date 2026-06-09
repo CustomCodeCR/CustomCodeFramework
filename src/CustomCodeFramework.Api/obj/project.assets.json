@@ -1465,11 +1465,11 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "CustomCodeFramework.Auth/1.0.0": {
+      "CustomCodeFramework.Auth/0.1.0-alpha.1": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
-          "CustomCodeFramework.Core": "1.0.0",
+          "CustomCodeFramework.Core": "0.1.0-alpha.1",
           "Microsoft.AspNetCore.Authentication": "2.3.10",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "10.0.8",
           "Microsoft.AspNetCore.Authorization": "10.0.8",
@@ -1486,7 +1486,7 @@
           "bin/placeholder/CustomCodeFramework.Auth.dll": {}
         }
       },
-      "CustomCodeFramework.Core/1.0.0": {
+      "CustomCodeFramework.Core/0.1.0-alpha.1": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
@@ -1500,12 +1500,12 @@
           "bin/placeholder/CustomCodeFramework.Core.dll": {}
         }
       },
-      "CustomCodeFramework.Cqrs/1.0.0": {
+      "CustomCodeFramework.Cqrs/0.1.0-alpha.1": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "CustomCodeFramework.Core": "1.0.0",
-          "CustomCodeFramework.Validation": "1.0.0",
+          "CustomCodeFramework.Core": "0.1.0-alpha.1",
+          "CustomCodeFramework.Validation": "0.1.0-alpha.1",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.8",
           "Microsoft.Extensions.Logging.Abstractions": "10.0.8"
         },
@@ -1516,11 +1516,11 @@
           "bin/placeholder/CustomCodeFramework.Cqrs.dll": {}
         }
       },
-      "CustomCodeFramework.Observability/1.0.0": {
+      "CustomCodeFramework.Observability/0.1.0-alpha.1": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "CustomCodeFramework.Core": "1.0.0",
+          "CustomCodeFramework.Core": "0.1.0-alpha.1",
           "Microsoft.Extensions.Diagnostics.HealthChecks": "10.0.8",
           "OpenTelemetry": "1.15.3",
           "OpenTelemetry.Exporter.OpenTelemetryProtocol": "1.15.3",
@@ -1541,12 +1541,12 @@
           "bin/placeholder/CustomCodeFramework.Observability.dll": {}
         }
       },
-      "CustomCodeFramework.Persistence/1.0.0": {
+      "CustomCodeFramework.Persistence/0.1.0-alpha.1": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
           "Ardalis.Specification": "9.3.1",
-          "CustomCodeFramework.Core": "1.0.0"
+          "CustomCodeFramework.Core": "0.1.0-alpha.1"
         },
         "compile": {
           "bin/placeholder/CustomCodeFramework.Persistence.dll": {}
@@ -1555,11 +1555,11 @@
           "bin/placeholder/CustomCodeFramework.Persistence.dll": {}
         }
       },
-      "CustomCodeFramework.Validation/1.0.0": {
+      "CustomCodeFramework.Validation/0.1.0-alpha.1": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "CustomCodeFramework.Core": "1.0.0",
+          "CustomCodeFramework.Core": "0.1.0-alpha.1",
           "FluentValidation": "12.1.1",
           "FluentValidation.DependencyInjectionExtensions": "12.1.1",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.8"
@@ -3717,32 +3717,32 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "CustomCodeFramework.Auth/1.0.0": {
+    "CustomCodeFramework.Auth/0.1.0-alpha.1": {
       "type": "project",
       "path": "../CustomCodeFramework.Auth/CustomCodeFramework.Auth.csproj",
       "msbuildProject": "../CustomCodeFramework.Auth/CustomCodeFramework.Auth.csproj"
     },
-    "CustomCodeFramework.Core/1.0.0": {
+    "CustomCodeFramework.Core/0.1.0-alpha.1": {
       "type": "project",
       "path": "../CustomCodeFramework.Core/CustomCodeFramework.Core.csproj",
       "msbuildProject": "../CustomCodeFramework.Core/CustomCodeFramework.Core.csproj"
     },
-    "CustomCodeFramework.Cqrs/1.0.0": {
+    "CustomCodeFramework.Cqrs/0.1.0-alpha.1": {
       "type": "project",
       "path": "../CustomCodeFramework.Cqrs/CustomCodeFramework.Cqrs.csproj",
       "msbuildProject": "../CustomCodeFramework.Cqrs/CustomCodeFramework.Cqrs.csproj"
     },
-    "CustomCodeFramework.Observability/1.0.0": {
+    "CustomCodeFramework.Observability/0.1.0-alpha.1": {
       "type": "project",
       "path": "../CustomCodeFramework.Observability/CustomCodeFramework.Observability.csproj",
       "msbuildProject": "../CustomCodeFramework.Observability/CustomCodeFramework.Observability.csproj"
     },
-    "CustomCodeFramework.Persistence/1.0.0": {
+    "CustomCodeFramework.Persistence/0.1.0-alpha.1": {
       "type": "project",
       "path": "../CustomCodeFramework.Persistence/CustomCodeFramework.Persistence.csproj",
       "msbuildProject": "../CustomCodeFramework.Persistence/CustomCodeFramework.Persistence.csproj"
     },
-    "CustomCodeFramework.Validation/1.0.0": {
+    "CustomCodeFramework.Validation/0.1.0-alpha.1": {
       "type": "project",
       "path": "../CustomCodeFramework.Validation/CustomCodeFramework.Validation.csproj",
       "msbuildProject": "../CustomCodeFramework.Validation/CustomCodeFramework.Validation.csproj"
@@ -3750,12 +3750,12 @@
   },
   "projectFileDependencyGroups": {
     "net10.0": [
-      "CustomCodeFramework.Auth >= 1.0.0",
-      "CustomCodeFramework.Core >= 1.0.0",
-      "CustomCodeFramework.Cqrs >= 1.0.0",
-      "CustomCodeFramework.Observability >= 1.0.0",
-      "CustomCodeFramework.Persistence >= 1.0.0",
-      "CustomCodeFramework.Validation >= 1.0.0",
+      "CustomCodeFramework.Auth >= 0.1.0-alpha.1",
+      "CustomCodeFramework.Core >= 0.1.0-alpha.1",
+      "CustomCodeFramework.Cqrs >= 0.1.0-alpha.1",
+      "CustomCodeFramework.Observability >= 0.1.0-alpha.1",
+      "CustomCodeFramework.Persistence >= 0.1.0-alpha.1",
+      "CustomCodeFramework.Validation >= 0.1.0-alpha.1",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 10.0.8",
       "Microsoft.AspNetCore.Mvc.Core >= 2.3.10",
       "Microsoft.AspNetCore.OpenApi >= 10.0.8",
@@ -3769,7 +3769,7 @@
     "/home/maulang/.nuget/packages/": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "0.1.0-alpha.1",
     "restore": {
       "projectUniqueName": "/home/maulang/Sistemas/CustomCodeFramework/src/CustomCodeFramework.Api/CustomCodeFramework.Api.csproj",
       "projectName": "CustomCodeFramework.Api",

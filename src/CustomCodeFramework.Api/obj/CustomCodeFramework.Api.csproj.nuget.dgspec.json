@@ -5,7 +5,7 @@
   },
   "projects": {
     "/home/maulang/Sistemas/CustomCodeFramework/src/CustomCodeFramework.Api/CustomCodeFramework.Api.csproj": {
-      "version": "1.0.0",
+      "version": "0.1.0-alpha.1",
       "restore": {
         "projectUniqueName": "/home/maulang/Sistemas/CustomCodeFramework/src/CustomCodeFramework.Api/CustomCodeFramework.Api.csproj",
         "projectName": "CustomCodeFramework.Api",
@@ -389,7 +389,7 @@
       }
     },
     "/home/maulang/Sistemas/CustomCodeFramework/src/CustomCodeFramework.Auth/CustomCodeFramework.Auth.csproj": {
-      "version": "1.0.0",
+      "version": "0.1.0-alpha.1",
       "restore": {
         "projectUniqueName": "/home/maulang/Sistemas/CustomCodeFramework/src/CustomCodeFramework.Auth/CustomCodeFramework.Auth.csproj",
         "projectName": "CustomCodeFramework.Auth",
@@ -762,7 +762,7 @@
       }
     },
     "/home/maulang/Sistemas/CustomCodeFramework/src/CustomCodeFramework.Core/CustomCodeFramework.Core.csproj": {
-      "version": "1.0.0",
+      "version": "0.1.0-alpha.1",
       "restore": {
         "projectUniqueName": "/home/maulang/Sistemas/CustomCodeFramework/src/CustomCodeFramework.Core/CustomCodeFramework.Core.csproj",
         "projectName": "CustomCodeFramework.Core",
@@ -843,7 +843,7 @@
       }
     },
     "/home/maulang/Sistemas/CustomCodeFramework/src/CustomCodeFramework.Cqrs/CustomCodeFramework.Cqrs.csproj": {
-      "version": "1.0.0",
+      "version": "0.1.0-alpha.1",
       "restore": {
         "projectUniqueName": "/home/maulang/Sistemas/CustomCodeFramework/src/CustomCodeFramework.Cqrs/CustomCodeFramework.Cqrs.csproj",
         "projectName": "CustomCodeFramework.Cqrs",
@@ -931,7 +931,7 @@
       }
     },
     "/home/maulang/Sistemas/CustomCodeFramework/src/CustomCodeFramework.Observability/CustomCodeFramework.Observability.csproj": {
-      "version": "1.0.0",
+      "version": "0.1.0-alpha.1",
       "restore": {
         "projectUniqueName": "/home/maulang/Sistemas/CustomCodeFramework/src/CustomCodeFramework.Observability/CustomCodeFramework.Observability.csproj",
         "projectName": "CustomCodeFramework.Observability",
@@ -1056,7 +1056,7 @@
       }
     },
     "/home/maulang/Sistemas/CustomCodeFramework/src/CustomCodeFramework.Persistence/CustomCodeFramework.Persistence.csproj": {
-      "version": "1.0.0",
+      "version": "0.1.0-alpha.1",
       "restore": {
         "projectUniqueName": "/home/maulang/Sistemas/CustomCodeFramework/src/CustomCodeFramework.Persistence/CustomCodeFramework.Persistence.csproj",
         "projectName": "CustomCodeFramework.Persistence",
@@ -1401,7 +1401,7 @@
       }
     },
     "/home/maulang/Sistemas/CustomCodeFramework/src/CustomCodeFramework.Validation/CustomCodeFramework.Validation.csproj": {
-      "version": "1.0.0",
+      "version": "0.1.0-alpha.1",
       "restore": {
         "projectUniqueName": "/home/maulang/Sistemas/CustomCodeFramework/src/CustomCodeFramework.Validation/CustomCodeFramework.Validation.csproj",
         "projectName": "CustomCodeFramework.Validation",

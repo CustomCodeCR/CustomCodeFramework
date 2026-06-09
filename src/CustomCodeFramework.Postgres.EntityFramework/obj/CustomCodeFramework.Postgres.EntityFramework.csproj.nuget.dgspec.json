@@ -5,7 +5,7 @@
   },
   "projects": {
     "/home/maulang/Sistemas/CustomCodeFramework/src/CustomCodeFramework.Core/CustomCodeFramework.Core.csproj": {
-      "version": "1.0.0",
+      "version": "0.1.0-alpha.1",
       "restore": {
         "projectUniqueName": "/home/maulang/Sistemas/CustomCodeFramework/src/CustomCodeFramework.Core/CustomCodeFramework.Core.csproj",
         "projectName": "CustomCodeFramework.Core",
@@ -86,7 +86,7 @@
       }
     },
     "/home/maulang/Sistemas/CustomCodeFramework/src/CustomCodeFramework.Messaging/CustomCodeFramework.Messaging.csproj": {
-      "version": "1.0.0",
+      "version": "0.1.0-alpha.1",
       "restore": {
         "projectUniqueName": "/home/maulang/Sistemas/CustomCodeFramework/src/CustomCodeFramework.Messaging/CustomCodeFramework.Messaging.csproj",
         "projectName": "CustomCodeFramework.Messaging",
@@ -179,7 +179,7 @@
       }
     },
     "/home/maulang/Sistemas/CustomCodeFramework/src/CustomCodeFramework.Persistence/CustomCodeFramework.Persistence.csproj": {
-      "version": "1.0.0",
+      "version": "0.1.0-alpha.1",
       "restore": {
         "projectUniqueName": "/home/maulang/Sistemas/CustomCodeFramework/src/CustomCodeFramework.Persistence/CustomCodeFramework.Persistence.csproj",
         "projectName": "CustomCodeFramework.Persistence",
@@ -524,7 +524,7 @@
       }
     },
     "/home/maulang/Sistemas/CustomCodeFramework/src/CustomCodeFramework.Postgres.EntityFramework/CustomCodeFramework.Postgres.EntityFramework.csproj": {
-      "version": "1.0.0",
+      "version": "0.1.0-alpha.1",
       "restore": {
         "projectUniqueName": "/home/maulang/Sistemas/CustomCodeFramework/src/CustomCodeFramework.Postgres.EntityFramework/CustomCodeFramework.Postgres.EntityFramework.csproj",
         "projectName": "CustomCodeFramework.Postgres.EntityFramework",
@@ -897,7 +897,7 @@
       }
     },
     "/home/maulang/Sistemas/CustomCodeFramework/src/CustomCodeFramework.Postgres/CustomCodeFramework.Postgres.csproj": {
-      "version": "1.0.0",
+      "version": "0.1.0-alpha.1",
       "restore": {
         "projectUniqueName": "/home/maulang/Sistemas/CustomCodeFramework/src/CustomCodeFramework.Postgres/CustomCodeFramework.Postgres.csproj",
         "projectName": "CustomCodeFramework.Postgres",

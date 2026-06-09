@@ -355,7 +355,7 @@
           }
         }
       },
-      "CustomCodeFramework.Core/1.0.0": {
+      "CustomCodeFramework.Core/0.1.0-alpha.1": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
@@ -369,11 +369,11 @@
           "bin/placeholder/CustomCodeFramework.Core.dll": {}
         }
       },
-      "CustomCodeFramework.Messaging/1.0.0": {
+      "CustomCodeFramework.Messaging/0.1.0-alpha.1": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "CustomCodeFramework.Core": "1.0.0",
+          "CustomCodeFramework.Core": "0.1.0-alpha.1",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.8",
           "Microsoft.Extensions.Hosting.Abstractions": "10.0.8",
           "Microsoft.Extensions.Logging.Abstractions": "10.0.8",
@@ -386,11 +386,11 @@
           "bin/placeholder/CustomCodeFramework.Messaging.dll": {}
         }
       },
-      "CustomCodeFramework.Storage/1.0.0": {
+      "CustomCodeFramework.Storage/0.1.0-alpha.1": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
-          "CustomCodeFramework.Core": "1.0.0",
+          "CustomCodeFramework.Core": "0.1.0-alpha.1",
           "Microsoft.AspNetCore.StaticFiles": "2.3.10",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.8",
           "Microsoft.Extensions.Options.ConfigurationExtensions": "10.0.8"
@@ -908,17 +908,17 @@
         "microsoft.net.http.headers.nuspec"
       ]
     },
-    "CustomCodeFramework.Core/1.0.0": {
+    "CustomCodeFramework.Core/0.1.0-alpha.1": {
       "type": "project",
       "path": "../CustomCodeFramework.Core/CustomCodeFramework.Core.csproj",
       "msbuildProject": "../CustomCodeFramework.Core/CustomCodeFramework.Core.csproj"
     },
-    "CustomCodeFramework.Messaging/1.0.0": {
+    "CustomCodeFramework.Messaging/0.1.0-alpha.1": {
       "type": "project",
       "path": "../CustomCodeFramework.Messaging/CustomCodeFramework.Messaging.csproj",
       "msbuildProject": "../CustomCodeFramework.Messaging/CustomCodeFramework.Messaging.csproj"
     },
-    "CustomCodeFramework.Storage/1.0.0": {
+    "CustomCodeFramework.Storage/0.1.0-alpha.1": {
       "type": "project",
       "path": "../CustomCodeFramework.Storage/CustomCodeFramework.Storage.csproj",
       "msbuildProject": "../CustomCodeFramework.Storage/CustomCodeFramework.Storage.csproj"
@@ -926,9 +926,9 @@
   },
   "projectFileDependencyGroups": {
     "net10.0": [
-      "CustomCodeFramework.Core >= 1.0.0",
-      "CustomCodeFramework.Messaging >= 1.0.0",
-      "CustomCodeFramework.Storage >= 1.0.0",
+      "CustomCodeFramework.Core >= 0.1.0-alpha.1",
+      "CustomCodeFramework.Messaging >= 0.1.0-alpha.1",
+      "CustomCodeFramework.Storage >= 0.1.0-alpha.1",
       "Microsoft.Extensions.DependencyInjection.Abstractions >= 10.0.8",
       "Microsoft.Extensions.Logging.Abstractions >= 10.0.8",
       "Microsoft.Extensions.Options.ConfigurationExtensions >= 10.0.8"
@@ -938,7 +938,7 @@
     "/home/maulang/.nuget/packages/": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "0.1.0-alpha.1",
     "restore": {
       "projectUniqueName": "/home/maulang/Sistemas/CustomCodeFramework/src/CustomCodeFramework.Notifications/CustomCodeFramework.Notifications.csproj",
       "projectName": "CustomCodeFramework.Notifications",

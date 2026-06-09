@@ -174,7 +174,7 @@
     "/home/maulang/.nuget/packages/": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "0.1.0-alpha.1",
     "restore": {
       "projectUniqueName": "/home/maulang/Sistemas/CustomCodeFramework/src/CustomCodeFramework.Core/CustomCodeFramework.Core.csproj",
       "projectName": "CustomCodeFramework.Core",

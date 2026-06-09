@@ -1,0 +1,64 @@
+<Project>
+
+  <PropertyGroup>
+    <!-- Package Metadata -->
+    <Version>0.1.0-alpha.1</Version>
+
+    <Company>CustomCodeCR</Company>
+    <Authors>CustomCodeCR</Authors>
+    <Product>CustomCodeFramework</Product>
+
+    <Description>Reusable .NET framework packages for backend applications.</Description>
+
+    <PackageProjectUrl>https://github.com/CustomCodeCR/CustomCodeFramework</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/CustomCodeCR/CustomCodeFramework</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+
+    <PackageTags>
+      customcodeframework;
+      dotnet;
+      framework;
+      cqrs;
+      ddd;
+      clean-architecture;
+      postgres;
+      mongodb;
+      redis
+    </PackageTags>
+
+    <!-- Build -->
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
+
+    <Deterministic>true</Deterministic>
+
+    <!-- Language -->
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+
+    <!-- Documentation -->
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+
+    <!-- Warnings -->
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)README.md"
+          Pack="true"
+          PackagePath="\" />
+  </ItemGroup>
+
+</Project>

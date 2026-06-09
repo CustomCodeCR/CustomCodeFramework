@@ -120,7 +120,7 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
-      "CustomCodeFramework.Core/1.0.0": {
+      "CustomCodeFramework.Core/0.1.0-alpha.1": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
@@ -134,11 +134,11 @@
           "bin/placeholder/CustomCodeFramework.Core.dll": {}
         }
       },
-      "CustomCodeFramework.Validation/1.0.0": {
+      "CustomCodeFramework.Validation/0.1.0-alpha.1": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "CustomCodeFramework.Core": "1.0.0",
+          "CustomCodeFramework.Core": "0.1.0-alpha.1",
           "FluentValidation": "12.1.1",
           "FluentValidation.DependencyInjectionExtensions": "12.1.1",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.8"
@@ -389,12 +389,12 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "CustomCodeFramework.Core/1.0.0": {
+    "CustomCodeFramework.Core/0.1.0-alpha.1": {
       "type": "project",
       "path": "../CustomCodeFramework.Core/CustomCodeFramework.Core.csproj",
       "msbuildProject": "../CustomCodeFramework.Core/CustomCodeFramework.Core.csproj"
     },
-    "CustomCodeFramework.Validation/1.0.0": {
+    "CustomCodeFramework.Validation/0.1.0-alpha.1": {
       "type": "project",
       "path": "../CustomCodeFramework.Validation/CustomCodeFramework.Validation.csproj",
       "msbuildProject": "../CustomCodeFramework.Validation/CustomCodeFramework.Validation.csproj"
@@ -402,8 +402,8 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "CustomCodeFramework.Core >= 1.0.0",
-      "CustomCodeFramework.Validation >= 1.0.0",
+      "CustomCodeFramework.Core >= 0.1.0-alpha.1",
+      "CustomCodeFramework.Validation >= 0.1.0-alpha.1",
       "Microsoft.Extensions.DependencyInjection.Abstractions >= 10.0.8",
       "Microsoft.Extensions.Logging.Abstractions >= 10.0.8"
     ]
@@ -412,7 +412,7 @@
     "/home/maulang/.nuget/packages/": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "0.1.0-alpha.1",
     "restore": {
       "projectUniqueName": "/home/maulang/Sistemas/CustomCodeFramework/src/CustomCodeFramework.Cqrs/CustomCodeFramework.Cqrs.csproj",
       "projectName": "CustomCodeFramework.Cqrs",
