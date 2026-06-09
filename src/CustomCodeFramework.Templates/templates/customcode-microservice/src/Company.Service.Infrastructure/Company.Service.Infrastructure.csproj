@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Company.Service.Application\Company.Service.Application.csproj" />
+    <ProjectReference Include="..\Company.Service.Domain\Company.Service.Domain.csproj" />
+    <ProjectReference Include="..\Company.Service.Persistence\Company.Service.Persistence.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>

@@ -1,0 +1,15 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Company.Service.Api/Company.Service.Api.csproj" />
+    <Project Path="src/Company.Service.Application/Company.Service.Application.csproj" />
+    <Project Path="src/Company.Service.Contracts/Company.Service.Contracts.csproj" />
+    <Project Path="src/Company.Service.Domain/Company.Service.Domain.csproj" />
+    <Project Path="src/Company.Service.Infrastructure/Company.Service.Infrastructure.csproj" />
+    <Project Path="src/Company.Service.Persistence/Company.Service.Persistence.csproj" />
+    <Project Path="src/Company.Service.Workers/Company.Service.Workers.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Company.Service.IntegrationTests/Company.Service.IntegrationTests.csproj" />
+    <Project Path="tests/Company.Service.UnitTests/Company.Service.UnitTests.csproj" />
+  </Folder>
+</Solution>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+  <metadata>
+    <id>CustomCodeFramework.Templates</id>
+    <version>0.1.0-alpha.2</version>
+    <authors>CustomCodeCR</authors>
+    <owners>CustomCodeCR</owners>
+    <description>CustomCodeFramework dotnet new templates.</description>
+    <packageTypes>
+      <packageType name="Template" />
+    </packageTypes>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+  </metadata>
+
+  <files>
+    <file src="templates/customcode-microservice/.template.config/template.json" target="content/.template.config/template.json" />
+    <file src="templates/customcode-microservice/src/**/*.*" target="content/src" />
+    <file src="templates/customcode-microservice/tests/**/*.*" target="content/tests" />
+  </files>
+</package>
