@@ -315,7 +315,7 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
-      "CustomCodeFramework.Core/0.1.0-alpha.2": {
+      "CustomCodeFramework.Core/0.1.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
@@ -848,7 +848,7 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "CustomCodeFramework.Core/0.1.0-alpha.2": {
+    "CustomCodeFramework.Core/0.1.0": {
       "type": "project",
       "path": "../CustomCodeFramework.Core/CustomCodeFramework.Core.csproj",
       "msbuildProject": "../CustomCodeFramework.Core/CustomCodeFramework.Core.csproj"
@@ -856,7 +856,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "CustomCodeFramework.Core >= 0.1.0-alpha.2",
+      "CustomCodeFramework.Core >= 0.1.0",
       "Microsoft.Extensions.DependencyInjection.Abstractions >= 10.0.8",
       "Microsoft.Extensions.Diagnostics.HealthChecks >= 10.0.8",
       "Microsoft.Extensions.Options.ConfigurationExtensions >= 10.0.8",
@@ -868,7 +868,7 @@
     "/home/maulang/.nuget/packages/": {}
   },
   "project": {
-    "version": "0.1.0-alpha.1",
+    "version": "0.1.0",
     "restore": {
       "projectUniqueName": "/home/maulang/Sistemas/CustomCodeFramework/src/CustomCodeFramework.Postgres/CustomCodeFramework.Postgres.csproj",
       "projectName": "CustomCodeFramework.Postgres",

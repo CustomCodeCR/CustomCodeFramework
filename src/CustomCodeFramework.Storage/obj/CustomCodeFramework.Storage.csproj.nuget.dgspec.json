@@ -5,7 +5,7 @@
   },
   "projects": {
     "/home/maulang/Sistemas/CustomCodeFramework/src/CustomCodeFramework.Core/CustomCodeFramework.Core.csproj": {
-      "version": "0.1.0-alpha.2",
+      "version": "0.1.0",
       "restore": {
         "projectUniqueName": "/home/maulang/Sistemas/CustomCodeFramework/src/CustomCodeFramework.Core/CustomCodeFramework.Core.csproj",
         "projectName": "CustomCodeFramework.Core",
@@ -88,7 +88,7 @@
       }
     },
     "/home/maulang/Sistemas/CustomCodeFramework/src/CustomCodeFramework.Storage/CustomCodeFramework.Storage.csproj": {
-      "version": "0.1.0-alpha.1",
+      "version": "0.1.0",
       "restore": {
         "projectUniqueName": "/home/maulang/Sistemas/CustomCodeFramework/src/CustomCodeFramework.Storage/CustomCodeFramework.Storage.csproj",
         "projectName": "CustomCodeFramework.Storage",

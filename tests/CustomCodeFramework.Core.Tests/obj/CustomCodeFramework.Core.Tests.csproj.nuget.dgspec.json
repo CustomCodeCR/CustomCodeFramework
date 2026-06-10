@@ -5,7 +5,7 @@
   },
   "projects": {
     "/home/maulang/Sistemas/CustomCodeFramework/tests/CustomCodeFramework.Core.Tests/CustomCodeFramework.Core.Tests.csproj": {
-      "version": "0.1.0-alpha.1",
+      "version": "0.1.0",
       "restore": {
         "projectUniqueName": "/home/maulang/Sistemas/CustomCodeFramework/tests/CustomCodeFramework.Core.Tests/CustomCodeFramework.Core.Tests.csproj",
         "projectName": "CustomCodeFramework.Core.Tests",

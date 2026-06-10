@@ -308,7 +308,7 @@
           }
         }
       },
-      "CustomCodeFramework.Core/0.1.0-alpha.2": {
+      "CustomCodeFramework.Core/0.1.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
@@ -322,12 +322,12 @@
           "bin/placeholder/CustomCodeFramework.Core.dll": {}
         }
       },
-      "CustomCodeFramework.Persistence/0.1.0-alpha.1": {
+      "CustomCodeFramework.Persistence/0.1.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
           "Ardalis.Specification": "9.3.1",
-          "CustomCodeFramework.Core": "0.1.0-alpha.2"
+          "CustomCodeFramework.Core": "0.1.0"
         },
         "compile": {
           "bin/placeholder/CustomCodeFramework.Persistence.dll": {}
@@ -336,11 +336,11 @@
           "bin/placeholder/CustomCodeFramework.Persistence.dll": {}
         }
       },
-      "CustomCodeFramework.Postgres/0.1.0-alpha.1": {
+      "CustomCodeFramework.Postgres/0.1.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "CustomCodeFramework.Core": "0.1.0-alpha.2",
+          "CustomCodeFramework.Core": "0.1.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.8",
           "Microsoft.Extensions.Diagnostics.HealthChecks": "10.0.8",
           "Microsoft.Extensions.Options.ConfigurationExtensions": "10.0.8",
@@ -863,17 +863,17 @@
         "postgresql.png"
       ]
     },
-    "CustomCodeFramework.Core/0.1.0-alpha.2": {
+    "CustomCodeFramework.Core/0.1.0": {
       "type": "project",
       "path": "../CustomCodeFramework.Core/CustomCodeFramework.Core.csproj",
       "msbuildProject": "../CustomCodeFramework.Core/CustomCodeFramework.Core.csproj"
     },
-    "CustomCodeFramework.Persistence/0.1.0-alpha.1": {
+    "CustomCodeFramework.Persistence/0.1.0": {
       "type": "project",
       "path": "../CustomCodeFramework.Persistence/CustomCodeFramework.Persistence.csproj",
       "msbuildProject": "../CustomCodeFramework.Persistence/CustomCodeFramework.Persistence.csproj"
     },
-    "CustomCodeFramework.Postgres/0.1.0-alpha.1": {
+    "CustomCodeFramework.Postgres/0.1.0": {
       "type": "project",
       "path": "../CustomCodeFramework.Postgres/CustomCodeFramework.Postgres.csproj",
       "msbuildProject": "../CustomCodeFramework.Postgres/CustomCodeFramework.Postgres.csproj"
@@ -881,8 +881,8 @@
   },
   "projectFileDependencyGroups": {
     "net10.0": [
-      "CustomCodeFramework.Persistence >= 0.1.0-alpha.1",
-      "CustomCodeFramework.Postgres >= 0.1.0-alpha.1",
+      "CustomCodeFramework.Persistence >= 0.1.0",
+      "CustomCodeFramework.Postgres >= 0.1.0",
       "Dapper >= 2.1.79",
       "Microsoft.Extensions.DependencyInjection.Abstractions >= 10.0.8",
       "Microsoft.Extensions.Options.ConfigurationExtensions >= 10.0.8",
@@ -893,7 +893,7 @@
     "/home/maulang/.nuget/packages/": {}
   },
   "project": {
-    "version": "0.1.0-alpha.1",
+    "version": "0.1.0",
     "restore": {
       "projectUniqueName": "/home/maulang/Sistemas/CustomCodeFramework/src/CustomCodeFramework.Postgres.Dapper/CustomCodeFramework.Postgres.Dapper.csproj",
       "projectName": "CustomCodeFramework.Postgres.Dapper",

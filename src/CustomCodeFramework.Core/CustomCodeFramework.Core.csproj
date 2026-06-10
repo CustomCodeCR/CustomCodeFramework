@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
 
     <PackageId>CustomCodeFramework.Core</PackageId>
-    <Version>0.1.0-alpha.2</Version>
+    <Version>0.1.0</Version>
     <Description>Core abstractions, domain primitives, results, guards and shared utilities for CustomCodeFramework.</Description>
   </PropertyGroup>
 
