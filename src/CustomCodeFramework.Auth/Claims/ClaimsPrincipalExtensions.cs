@@ -27,6 +27,22 @@ public static class ClaimsPrincipalExtensions
         return principal.FindFirstValue(CustomClaimTypes.TenantId);
     }
 
+    public static string? GetUserType(this ClaimsPrincipal principal)
+    {
+        return principal.FindFirstValue(CustomClaimTypes.UserType);
+    }
+
+    public static string? GetSessionId(this ClaimsPrincipal principal)
+    {
+        return principal.FindFirstValue(CustomClaimTypes.SessionId);
+    }
+
+    public static int? GetTokenVersion(this ClaimsPrincipal principal)
+    {
+        var value = principal.FindFirstValue(CustomClaimTypes.TokenVersion);
+        return int.TryParse(value, out var version) ? version : null;
+    }
+
     public static IReadOnlyCollection<string> GetRoles(this ClaimsPrincipal principal)
     {
         return principal
@@ -41,7 +57,17 @@ public static class ClaimsPrincipalExtensions
     {
         return principal
             .FindAll(CustomClaimTypes.Permission)
-            .Select(claim => claim.Value)
+            .SelectMany(SplitClaimValues)
+            .Distinct(StringComparer.OrdinalIgnoreCase)
+            .ToArray();
+    }
+
+    public static IReadOnlyCollection<string> GetScopes(this ClaimsPrincipal principal)
+    {
+        return principal
+            .FindAll(CustomClaimTypes.Scope)
+            .Concat(principal.FindAll("scp"))
+            .SelectMany(claim => SplitClaimValues(claim.Value))
             .Distinct(StringComparer.OrdinalIgnoreCase)
             .ToArray();
     }
@@ -49,7 +75,21 @@ public static class ClaimsPrincipalExtensions
     public static bool HasPermission(this ClaimsPrincipal principal, string permission)
     {
         ArgumentException.ThrowIfNullOrWhiteSpace(permission);
-
         return principal.GetPermissions().Contains(permission, StringComparer.OrdinalIgnoreCase);
+    }
+
+    public static bool HasScope(this ClaimsPrincipal principal, string scope)
+    {
+        ArgumentException.ThrowIfNullOrWhiteSpace(scope);
+        return principal.GetScopes().Contains(scope, StringComparer.OrdinalIgnoreCase);
+    }
+
+    private static IEnumerable<string> SplitClaimValues(Claim claim) => SplitClaimValues(claim.Value);
+
+    private static IEnumerable<string> SplitClaimValues(string? value)
+    {
+        return string.IsNullOrWhiteSpace(value)
+            ? []
+            : value.Split(' ', StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
     }
 }

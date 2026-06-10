@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\CustomCodeFramework.Api\CustomCodeFramework.Api.csproj" />
+    <ProjectReference Include="..\CustomCodeFramework.Auth\CustomCodeFramework.Auth.csproj" />
+    <ProjectReference Include="..\CustomCodeFramework.Auth.Redis\CustomCodeFramework.Auth.Redis.csproj" />
+    <ProjectReference Include="..\CustomCodeFramework.Messaging.Outbox\CustomCodeFramework.Messaging.Outbox.csproj" />
+    <ProjectReference Include="..\CustomCodeFramework.Mongo\CustomCodeFramework.Mongo.csproj" />
+    <ProjectReference Include="..\CustomCodeFramework.Postgres\CustomCodeFramework.Postgres.csproj" />
+    <ProjectReference Include="..\CustomCodeFramework.Redis\CustomCodeFramework.Redis.csproj" />
+    <ProjectReference Include="..\CustomCodeFramework.Redis.Streams\CustomCodeFramework.Redis.Streams.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.8" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="10.0.8" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.0.8" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>

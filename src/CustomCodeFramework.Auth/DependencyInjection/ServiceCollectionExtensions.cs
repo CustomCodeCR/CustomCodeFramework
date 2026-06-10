@@ -2,6 +2,7 @@ using CustomCodeFramework.Auth.Abstractions;
 using CustomCodeFramework.Auth.ApiKeys;
 using CustomCodeFramework.Auth.Jwt;
 using CustomCodeFramework.Auth.Permissions;
+using CustomCodeFramework.Auth.Scopes;
 using CustomCodeFramework.Core.Abstractions;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
@@ -81,6 +82,7 @@ public static class ServiceCollectionExtensions
 
         services.AddSingleton<IAuthorizationPolicyProvider, PermissionPolicyProvider>();
         services.AddScoped<IAuthorizationHandler, PermissionAuthorizationHandler>();
+        services.AddScoped<IAuthorizationHandler, ScopeAuthorizationHandler>();
 
         return services;
     }

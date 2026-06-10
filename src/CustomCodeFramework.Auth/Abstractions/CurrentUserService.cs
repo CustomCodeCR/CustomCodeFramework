@@ -17,11 +17,17 @@ public sealed class CurrentUserService(IHttpContextAccessor httpContextAccessor)
 
     public string? Email => User?.GetEmail();
 
+    public string? UserType => User?.GetUserType();
+
     public string? TenantId => User?.GetTenantId();
 
-    public string? SessionId => User?.FindFirst(CustomClaimTypes.SessionId)?.Value;
+    public string? SessionId => User?.GetSessionId();
+
+    public int? TokenVersion => User?.GetTokenVersion();
 
     public IReadOnlyCollection<string> Roles => User?.GetRoles() ?? [];
 
     public IReadOnlyCollection<string> Permissions => User?.GetPermissions() ?? [];
+
+    public IReadOnlyCollection<string> Scopes => User?.GetScopes() ?? [];
 }

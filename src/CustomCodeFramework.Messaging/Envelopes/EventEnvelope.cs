@@ -12,5 +12,13 @@ public sealed record EventEnvelope
 
     public required string Payload { get; init; }
 
+    public string? CorrelationId { get; init; }
+
+    public string? SourceService { get; init; }
+
+    public int Version { get; init; } = 1;
+
+    public DateTime OccurredAtUtc { get; init; } = DateTime.UtcNow;
+
     public EventMetadata Metadata { get; init; } = new();
 }

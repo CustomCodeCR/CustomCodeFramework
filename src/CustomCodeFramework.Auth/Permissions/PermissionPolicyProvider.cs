@@ -1,3 +1,4 @@
+using CustomCodeFramework.Auth.Scopes;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.Extensions.Options;
 
@@ -17,22 +18,30 @@ public sealed class PermissionPolicyProvider(IOptions<AuthorizationOptions> opti
             return existingPolicy;
         }
 
-        if (!policyName.StartsWith(PolicyPrefix, StringComparison.OrdinalIgnoreCase))
+        if (policyName.StartsWith(PolicyPrefix, StringComparison.OrdinalIgnoreCase))
         {
-            return null;
+            var permission = policyName[PolicyPrefix.Length..];
+            return new AuthorizationPolicyBuilder()
+                .RequireAuthenticatedUser()
+                .AddRequirements(new PermissionRequirement(permission))
+                .Build();
         }
 
-        var permission = policyName[PolicyPrefix.Length..];
+        if (policyName.StartsWith(ScopePolicy.NamePrefix, StringComparison.OrdinalIgnoreCase))
+        {
+            var scope = policyName[ScopePolicy.NamePrefix.Length..];
+            return new AuthorizationPolicyBuilder()
+                .RequireAuthenticatedUser()
+                .AddRequirements(new ScopeRequirement(scope))
+                .Build();
+        }
 
-        return new AuthorizationPolicyBuilder()
-            .AddRequirements(new PermissionRequirement(permission))
-            .Build();
+        return null;
     }
 
     public static string BuildPolicyName(string permission)
     {
         ArgumentException.ThrowIfNullOrWhiteSpace(permission);
-
         return $"{PolicyPrefix}{permission}";
     }
 }

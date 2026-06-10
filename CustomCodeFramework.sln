@@ -77,6 +77,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomCodeFramework.Templat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomCodeFramework.Auth.Redis", "src\CustomCodeFramework.Auth.Redis\CustomCodeFramework.Auth.Redis.csproj", "{61791D96-F1DD-4115-B2D5-5F856B50DCFD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomCodeFramework.ServiceDefaults", "src\CustomCodeFramework.ServiceDefaults\CustomCodeFramework.ServiceDefaults.csproj", "{A2E5392E-5AA0-42A2-898A-2814B3583D16}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -547,5 +549,6 @@ Global
 		{4225B7A0-340E-40F9-AC25-731252500261} = {818A7724-36D3-4EF6-88C1-A7E99ABD87A4}
 		{2C69B6C9-1B50-4444-946E-D182EC55138D} = {818A7724-36D3-4EF6-88C1-A7E99ABD87A4}
 		{61791D96-F1DD-4115-B2D5-5F856B50DCFD} = {818A7724-36D3-4EF6-88C1-A7E99ABD87A4}
+		{A2E5392E-5AA0-42A2-898A-2814B3583D16} = {818A7724-36D3-4EF6-88C1-A7E99ABD87A4}
 	EndGlobalSection
 EndGlobal
