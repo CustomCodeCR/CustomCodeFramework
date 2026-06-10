@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "wQQ3vutQnHE=",
+  "dgSpecHash": "Ggcay+Cl1+c=",
   "success": true,
   "projectFilePath": "/home/maulang/Sistemas/CustomCodeFramework/src/CustomCodeFramework.Observability/CustomCodeFramework.Observability.csproj",
   "expectedPackageFiles": [
@@ -54,7 +54,6 @@
     "/home/maulang/.nuget/packages/system.io.pipelines/10.0.0/system.io.pipelines.10.0.0.nupkg.sha512",
     "/home/maulang/.nuget/packages/system.text.encodings.web/10.0.0/system.text.encodings.web.10.0.0.nupkg.sha512",
     "/home/maulang/.nuget/packages/system.text.json/10.0.0/system.text.json.10.0.0.nupkg.sha512",
-    "/home/maulang/.nuget/packages/customcodeframework.core/0.1.0-alpha.1/customcodeframework.core.0.1.0-alpha.1.nupkg.sha512",
     "/home/maulang/.nuget/packages/microsoft.netcore.app.ref/8.0.27/microsoft.netcore.app.ref.8.0.27.nupkg.sha512",
     "/home/maulang/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.27/microsoft.aspnetcore.app.ref.8.0.27.nupkg.sha512"
   ],

@@ -120,7 +120,7 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
-      "CustomCodeFramework.Core/0.1.0-alpha.1": {
+      "CustomCodeFramework.Core/0.1.0-alpha.2": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
@@ -138,7 +138,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "CustomCodeFramework.Core": "0.1.0-alpha.1",
+          "CustomCodeFramework.Core": "0.1.0-alpha.2",
           "FluentValidation": "12.1.1",
           "FluentValidation.DependencyInjectionExtensions": "12.1.1",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.8"
@@ -389,7 +389,7 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "CustomCodeFramework.Core/0.1.0-alpha.1": {
+    "CustomCodeFramework.Core/0.1.0-alpha.2": {
       "type": "project",
       "path": "../CustomCodeFramework.Core/CustomCodeFramework.Core.csproj",
       "msbuildProject": "../CustomCodeFramework.Core/CustomCodeFramework.Core.csproj"
@@ -402,7 +402,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "CustomCodeFramework.Core >= 0.1.0-alpha.1",
+      "CustomCodeFramework.Core >= 0.1.0-alpha.2",
       "CustomCodeFramework.Validation >= 0.1.0-alpha.1",
       "Microsoft.Extensions.DependencyInjection.Abstractions >= 10.0.8",
       "Microsoft.Extensions.Logging.Abstractions >= 10.0.8"

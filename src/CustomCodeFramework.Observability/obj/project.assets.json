@@ -889,7 +889,7 @@
           "buildTransitive/net8.0/System.Text.Json.targets": {}
         }
       },
-      "CustomCodeFramework.Core/0.1.0-alpha.1": {
+      "CustomCodeFramework.Core/0.1.0-alpha.2": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
@@ -2271,7 +2271,7 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "CustomCodeFramework.Core/0.1.0-alpha.1": {
+    "CustomCodeFramework.Core/0.1.0-alpha.2": {
       "type": "project",
       "path": "../CustomCodeFramework.Core/CustomCodeFramework.Core.csproj",
       "msbuildProject": "../CustomCodeFramework.Core/CustomCodeFramework.Core.csproj"
@@ -2279,7 +2279,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "CustomCodeFramework.Core >= 0.1.0-alpha.1",
+      "CustomCodeFramework.Core >= 0.1.0-alpha.2",
       "Microsoft.Extensions.Diagnostics.HealthChecks >= 10.0.8",
       "OpenTelemetry >= 1.15.3",
       "OpenTelemetry.Exporter.OpenTelemetryProtocol >= 1.15.3",

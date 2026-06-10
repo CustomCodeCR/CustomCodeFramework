@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2sOaHkHd5So=",
+  "dgSpecHash": "HQhofSNBVVg=",
   "success": true,
   "projectFilePath": "/home/maulang/Sistemas/CustomCodeFramework/src/CustomCodeFramework.Redis/CustomCodeFramework.Redis.csproj",
   "expectedPackageFiles": [
@@ -25,7 +25,6 @@
     "/home/maulang/.nuget/packages/system.diagnostics.diagnosticsource/10.0.8/system.diagnostics.diagnosticsource.10.0.8.nupkg.sha512",
     "/home/maulang/.nuget/packages/system.io.hashing/10.0.2/system.io.hashing.10.0.2.nupkg.sha512",
     "/home/maulang/.nuget/packages/system.io.pipelines/8.0.0/system.io.pipelines.8.0.0.nupkg.sha512",
-    "/home/maulang/.nuget/packages/customcodeframework.core/0.1.0-alpha.1/customcodeframework.core.0.1.0-alpha.1.nupkg.sha512",
     "/home/maulang/.nuget/packages/microsoft.netcore.app.ref/8.0.27/microsoft.netcore.app.ref.8.0.27.nupkg.sha512",
     "/home/maulang/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.27/microsoft.aspnetcore.app.ref.8.0.27.nupkg.sha512"
   ],

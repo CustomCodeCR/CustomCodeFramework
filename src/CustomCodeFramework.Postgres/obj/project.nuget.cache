@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "dl+BdMT82OM=",
+  "dgSpecHash": "me1c6EWB2Q0=",
   "success": true,
   "projectFilePath": "/home/maulang/Sistemas/CustomCodeFramework/src/CustomCodeFramework.Postgres/CustomCodeFramework.Postgres.csproj",
   "expectedPackageFiles": [
@@ -21,7 +21,6 @@
     "/home/maulang/.nuget/packages/npgsql/10.0.3/npgsql.10.0.3.nupkg.sha512",
     "/home/maulang/.nuget/packages/npgsql.dependencyinjection/10.0.3/npgsql.dependencyinjection.10.0.3.nupkg.sha512",
     "/home/maulang/.nuget/packages/system.diagnostics.diagnosticsource/10.0.8/system.diagnostics.diagnosticsource.10.0.8.nupkg.sha512",
-    "/home/maulang/.nuget/packages/customcodeframework.core/0.1.0-alpha.1/customcodeframework.core.0.1.0-alpha.1.nupkg.sha512",
     "/home/maulang/.nuget/packages/microsoft.netcore.app.ref/8.0.27/microsoft.netcore.app.ref.8.0.27.nupkg.sha512",
     "/home/maulang/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.27/microsoft.aspnetcore.app.ref.8.0.27.nupkg.sha512"
   ],
