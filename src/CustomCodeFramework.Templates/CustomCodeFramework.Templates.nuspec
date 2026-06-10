@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>CustomCodeFramework.Templates</id>
-    <version>0.1.0-alpha.2</version>
+    <version>0.2.0</version>
     <authors>CustomCodeCR</authors>
     <owners>CustomCodeCR</owners>
     <description>CustomCodeFramework dotnet new templates.</description>
