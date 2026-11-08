@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.3.3] - 2026-11-08 (F9 candidate only)
+
+- Sincroniza Framework compartido con versión global propuesta `1.13.12` del batch realtime. PATCH 0.3.2 → 0.3.3; contratos compatibles, sin publicación NuGet y sin integración a develop/master.
+
+
 ## [0.3.2] - 2026-11-08 (candidato F9, sin publicación)
 
 - Alinea PATCH de Framework `0.3.1` → `0.3.2` con el ecosistema Dhole `1.13.11`. Contratos realtime existentes sin cambios, sin publicación NuGet ni cambios a develop/master.
