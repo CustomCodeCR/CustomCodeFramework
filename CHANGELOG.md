@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.3.1] - 2026-11-08 (candidato F9, sin publicar NuGet)
+
+- Actualiza versión PATCH del contrato compartido de F1 y su `ecosystemVersion=1.13.10` para el batch `rt-20261107-01`; sin romper APIs, sin publicar paquetes y sin afectar master/develop. La versión global candidata queda coordinada con todos los componentes Dhole.
+
+
 ## [0.3.0] — 2026-11-07 (candidate, feature branch only)
 
 - Batch: `rt-20261107-01`, plan Dhole Realtime v2.1.0.

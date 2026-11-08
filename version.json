@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "ecosystem": "Dhole",
   "component": "CustomCodeFramework",
-  "version": "0.3.0",
-  "ecosystemVersion": "1.13.0",
+  "version": "0.3.1",
+  "ecosystemVersion": "1.13.10",
   "releaseId": "rt-20261107-01",
   "status": "candidate-feature-branch-only"
 }
