@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.3.2] - 2026-11-08 (candidato F9, sin publicación)
+
+- Alinea PATCH de Framework `0.3.1` → `0.3.2` con el ecosistema Dhole `1.13.11`. Contratos realtime existentes sin cambios, sin publicación NuGet ni cambios a develop/master.
+
+
 ## [0.3.1] - 2026-11-08 (candidato F9, sin publicar NuGet)
 
 - Actualiza versión PATCH del contrato compartido de F1 y su `ecosystemVersion=1.13.10` para el batch `rt-20261107-01`; sin romper APIs, sin publicar paquetes y sin afectar master/develop. La versión global candidata queda coordinada con todos los componentes Dhole.
