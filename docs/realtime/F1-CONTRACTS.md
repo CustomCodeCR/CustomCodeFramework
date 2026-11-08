@@ -1,6 +1,6 @@
 # Dhole Realtime universal — F1: contratos (implementación preliminar aislada)
 
-**Batch:** `rt-20261107-01`. **Condición:** el gate F0 todavía debe cerrarse. La implementación F1 NO está validada ni liberada.
+**Batch:** `rt-20261107-01`. **Condición:** el gate F0 todavía debe cerrarse. **Criterios técnicos de F1 aprobados por CI; gate secuencial F1 NO APROBADO mientras F0 siga bloqueada.** No liberada ni desplegada.
 
 ## Integración no disruptiva
 
@@ -19,7 +19,7 @@ dotnet restore tests/CustomCodeFramework.Messaging.Realtime.Tests/CustomCodeFram
 dotnet test tests/CustomCodeFramework.Messaging.Realtime.Tests/CustomCodeFramework.Messaging.Realtime.Tests.csproj -c Release --no-restore
 ```
 
-Suite escrita: 35 tests `[Fact]` + 7 escenarios `[InlineData]` = **42 ejecuciones previstas**, no verificadas todavía. CI: `.github/workflows/realtime-f1-contract-validation.yml` (si es permitida su ejecución en la rama intermedia). No afirmar PASÓ hasta tener logs verificables; errores y skips bloquean el gate F1.
+**Validación final:** 37 tests `[Fact]` + 7 escenarios `[InlineData]` = **44 ejecuciones aprobadas**, sin fallos ni omitidos, sobre SHA `86645d36403869ccd791debb384bc298a6b2328a`. [GitHub Actions F1 #42485214061](https://github.com/CustomCodeCR/CustomCodeFramework/actions/runs/42485214061), compilación .NET 8 **SUCCESS (0 errores)**; el repositorio presenta advertencias XML históricas (no se contabilizan como fallos, pero se documentan). Artefacto TRX `13619555610`. Dos pruebas nuevas demuestran compatibilidad real del envelope F2 CRM y rechazo de payload con PII anidada.
 
 ## Fuera de F1
 
