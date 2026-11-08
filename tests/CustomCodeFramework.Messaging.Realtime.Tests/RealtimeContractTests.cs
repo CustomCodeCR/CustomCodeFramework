@@ -200,4 +200,55 @@ public sealed class RealtimeContractTests
     [Fact]
     public void NegativeCurrentVersionIsRejected() =>
         Assert.Equal(RealtimeVersionDecision.Invalid, RealtimeSchemaEvolution.CompareVersions(-1, 1));
+    [Fact]
+    public void CrmF2PilotProducerEnvelopeIsWireCompatibleWithSharedF1Codec()
+    {
+        var id = Guid.NewGuid();
+        var json = JsonSerializer.Serialize(new
+        {
+            eventId = id,
+            eventType = "crm.account.updated.v1",
+            schemaVersion = 1,
+            aggregateType = "account",
+            aggregateId = id.ToString("D"),
+            aggregateVersion = 1L,
+            occurredAtUtc = new DateTimeOffset(2026, 11, 8, 13, 0, 0, TimeSpan.Zero),
+            producer = "DholeCRMService",
+            correlationId = "f1-f2-contract-ci",
+            audienceRef = $"crm:account:{id:D}",
+            payload = new { changedFields = new[] { "status" }, aggregateVersion = 1 }
+        });
+        var envelope = RealtimeEnvelopeCodec.Deserialize(json);
+        Assert.Equal(id, envelope.EventId);
+        Assert.Equal("account", envelope.AggregateType);
+        Assert.Equal($"crm:account:{id:D}", envelope.AudienceRef);
+        Assert.True(RealtimeSchemaEvolution.CanConsume("crm.account.updated.v1", 1, envelope));
+        var decoded = RealtimeEnvelopeCodec.Deserialize(
+            RealtimeEnvelopeCodec.Serialize(envelope));
+        Assert.Equal(envelope.EventId, decoded.EventId);
+        Assert.Equal(envelope.AggregateVersion, decoded.AggregateVersion);
+    }
+
+    [Fact]
+    public void ProducerWithNestedPIIIsRejectedBeforeItCanReachAConsumer()
+    {
+        var id = Guid.NewGuid();
+        var json = JsonSerializer.Serialize(new
+        {
+            eventId = id,
+            eventType = "crm.account.updated.v1",
+            schemaVersion = 1,
+            aggregateType = "account",
+            aggregateId = id.ToString("D"),
+            aggregateVersion = 1L,
+            occurredAtUtc = DateTimeOffset.UtcNow,
+            producer = "DholeCRMService",
+            correlationId = "f1-f2-denied-ci",
+            audienceRef = $"crm:account:{id:D}",
+            payload = new { changedFields = new[] { "status" },
+                            nested = new { email = "private@example.invalid" } }
+        });
+        Assert.Throws<JsonException>(() => RealtimeEnvelopeCodec.Deserialize(json));
+    }
+
 }
