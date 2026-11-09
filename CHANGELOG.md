@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.3.4] - 2026-11-08 (candidato F3)
+
+- Sincronización de versión PATCH con el release Dhole 1.13.13; las pruebas WSS automatizadas corresponden al Gateway y no introducen cambios de API en Framework.
+
+
 ## [0.3.3] - 2026-11-08 (F9 candidate only)
 
 - Sincroniza Framework compartido con versión global propuesta `1.13.12` del batch realtime. PATCH 0.3.2 → 0.3.3; contratos compatibles, sin publicación NuGet y sin integración a develop/master.
