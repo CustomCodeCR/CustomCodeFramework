@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.3.5] - 2026-11-08 (F9 review candidate)
+
+- Alineación PATCH del paquete con release global 1.13.14. El protocolo F3 sigue probado en CI, pero su validación operativa en staging será posterior al despliegue; sin cambios de APIs del framework.
+
+
 ## [0.3.4] - 2026-11-08 (candidato F3)
 
 - Sincronización de versión PATCH con el release Dhole 1.13.13; las pruebas WSS automatizadas corresponden al Gateway y no introducen cambios de API en Framework.
