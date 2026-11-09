@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.3.6] - 2026-11-08 (Dhole realtime coordinated hardening)
+
+- PATCH 1.13.15 ecosystem release alignment with F2/F6 AOF read-only checks and F10 branch-preservation fix. Framework/connector candidate unchanged; realtime flags OFF and gates F6–F10 not formally approved.
+
+
 ## [0.3.5] - 2026-11-08 (F9 review candidate)
 
 - Alineación PATCH del paquete con release global 1.13.14. El protocolo F3 sigue probado en CI, pero su validación operativa en staging será posterior al despliegue; sin cambios de APIs del framework.
